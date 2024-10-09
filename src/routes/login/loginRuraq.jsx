@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { useNavigate, Link } from 'react-router-dom';
-// import Flechita from '../../components/flechita.jsx';
+import Flechita from '../../components/flechita.jsx';
 import './loginRuraq.css';
 
 const LoginRuraq = () => {

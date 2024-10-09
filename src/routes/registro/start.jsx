@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { useNavigate } from 'react-router-dom';
-import logoStart from '../../assets/img/mainlogo.svg';
+import logoStart from '../../assets/icon/arrowContinue.svg';
 import './start.css';
 
 const Start = () => {

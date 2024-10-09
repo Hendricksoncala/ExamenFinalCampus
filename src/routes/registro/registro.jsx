@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-
+import Registrarse from '../../components/registrarse.jsx'
 import './registro.css';
 
 const Registro = () => {
@@ -19,7 +19,7 @@ const Registro = () => {
             {/* github */}
             <li>
               <a className="registroButtonRegister" href="/inicioSesion/github">
-                <img src={instagramIcon} alt="Instagram" />
+                <img src={Registrarse} alt="Instagram" />
                 <p>
                   Regístrate con 
                   <span> github</span>
@@ -29,7 +29,7 @@ const Registro = () => {
             {/* Gmail */}
             <li>
               <a className="registroButtonRegister" href="/inicioSesion/google">
-                <img src={gmailIcon} alt="Gmail" />
+                <img src={Registrarse} alt="Gmail" />
                 <p>
                   Regístrate con 
                   <span> Gmail</span>
@@ -39,7 +39,7 @@ const Registro = () => {
             {/* Celular */}
             <li>
               <a className="registroButtonRegister">
-                <img src={celularIcon} alt="Celular" />
+                <img src={Registrarse} alt="Celular" />
                 <Link to="/registroCelular" className="registroLinktoFz">
                   Regístrate con tu 
                   <span> Celular</span>
@@ -49,7 +49,7 @@ const Registro = () => {
             {/* Ruraq */}
             <li>
               <a className="registroButtonRegister">
-                <img src={userIcon} alt="User" />
+                <img src={Registrarse} alt="User" />
                 <Link to="/registroRuraq" className="registroLinktoFz">
                   Regístrate con tu 
                   <span> correo</span>
