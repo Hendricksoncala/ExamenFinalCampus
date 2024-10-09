@@ -1,0 +1,86 @@
+/* LOGIN - RURAQ */
+.loginImgContainer {
+    position: relative;
+    background-image: url('../../assets/img/rectanguloBg.png');
+    background-size: 50vw 50vh;
+    background-position: bottom right;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100%;
+  }
+  
+  .loginPrincipalContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100vw;
+    padding-top: 10vh;
+  }
+  
+  .loginText {
+    width: 80vw;
+    font-size: 1.8vh;
+  }
+  
+  .loginTextLarge {
+    font-size: 3.5vh;
+  }
+  
+  .loginLink {
+    color: black;
+  }
+  
+  .loginList {
+    width: 80vw;
+  }
+  
+  .loginList ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .loginButtonRegister {
+    margin-top: 2vh;
+    cursor: pointer;
+    width: 100%;
+    height: 6vh;
+    border-radius: 0.5rem;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    /* font-size: 1.2rem; */
+    border: none;
+    background-color: white;
+    font-weight: bold;
+  }
+  
+  .loginButtonRegisterLink {
+    text-decoration: none;
+  }
+  
+  .loginButtonRegister img {
+    width: 11%;
+    padding: 1rem;
+    padding-right: 1.5rem;
+  }
+  
+  .loginButtonRegister p,
+  .loginLinkToFz {
+    font-size: 2.1vh;
+  }
+  
+  /* LOGIN BACKGROUND */
+  .loginBackground {
+    background-image: url('../../assets/img/backgroundLogin.svg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+  }

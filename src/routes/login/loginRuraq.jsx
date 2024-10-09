@@ -1,9 +1,7 @@
 import React, { useState } from 'react';
 import { useNavigate, Link } from 'react-router-dom';
 // import Flechita from '../../components/flechita.jsx';
-// import imagenBgCorner from '../../assets/img/rectanguloBgCorner.png';
-// import imagenBgCornerInverse from '../../assets/img/rectanugloBgCornerInverse.png';
-import './loginPrincipal.css';
+import './loginRuraq.css';
 
 const LoginRuraq = () => {
   const navigate = useNavigate();

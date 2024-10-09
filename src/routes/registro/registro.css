@@ -1,0 +1,93 @@
+/* Registro Celular - Ruraq */
+
+.registroPrincipalContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100vw;
+    padding-top: 10vh;
+  }
+  
+  .registroText {
+    width: 80vw;
+    font-size: 1.8vh;
+  }
+  .registroText h1{
+    font-weight: 400; /* Regular */
+  }
+  .registroText span{
+    font-family: var(--fuente-texto-negrita);
+    font-weight: 700; /* Negrita más fuerte */
+  }
+  
+  .registroText2 {
+    font-size: 2.5vh;
+  }
+  
+  .registroList {
+    width: 80vw;
+  }
+  
+  .registroList ul {
+    list-style: none;
+    text-decoration: none;
+    padding: 0;
+  }
+  
+  .registroButtonRegister {
+    margin-top: 2vh;
+    cursor: pointer;
+    width: 100%;
+    height: 6vh;
+    border-radius: 0.5rem;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    font-size: 1.2rem;
+    border: none;
+    background-color: white;
+    font-weight: bold;
+  }
+  
+  .registroButtonRegister a,
+  .registroList a,
+  .registroText2 p{
+    text-decoration: none;
+    color: var(--color-texto-oscuro);
+    font-weight: 400; /* Regular */
+  }
+  .registroText2 a{
+    font-weight: 700; /* Negrita más fuerte */
+  }
+  .registroButtonRegister img {
+    width: 11%;
+    padding: 1rem;
+    padding-right: 1.5rem;
+  }
+  
+  .registroButtonRegister p,
+  .registroLinktoFz {
+    font-size: 2.1vh;
+    color: var(--color-texto-oscuro);
+    font-weight: 400; /* Regular */
+    text-decoration: none;
+  }
+  .registroButtonRegister span {
+    font-weight: 700; /* Negrita más fuerte */
+  }
+  
+  /* LOGIN BACKGROUND */
+  .registroBackGround {
+    background-image: url('../../assets/img/backgroundLogin.svg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+  }

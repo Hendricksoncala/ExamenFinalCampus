@@ -1,0 +1,72 @@
+import React from 'react';
+import { Link } from 'react-router-dom';
+
+import './registro.css';
+
+const Registro = () => {
+  return (
+    <>
+      <div className="registroPrincipalContainer">
+        <div className="registroBackGround"></div>
+        <div className="registroText">
+          <h1>
+            Regístrate ahora y obtén las mejores promociones en
+            <span> artesanías peruanas</span>
+          </h1>
+        </div>
+        <div className="registroList">
+          <ul>
+            {/* github */}
+            <li>
+              <a className="registroButtonRegister" href="/inicioSesion/github">
+                <img src={instagramIcon} alt="Instagram" />
+                <p>
+                  Regístrate con 
+                  <span> github</span>
+                </p>
+              </a>
+            </li>
+            {/* Gmail */}
+            <li>
+              <a className="registroButtonRegister" href="/inicioSesion/google">
+                <img src={gmailIcon} alt="Gmail" />
+                <p>
+                  Regístrate con 
+                  <span> Gmail</span>
+                </p>
+              </a>
+            </li>
+            {/* Celular */}
+            <li>
+              <a className="registroButtonRegister">
+                <img src={celularIcon} alt="Celular" />
+                <Link to="/registroCelular" className="registroLinktoFz">
+                  Regístrate con tu 
+                  <span> Celular</span>
+                </Link>
+              </a>
+            </li>
+            {/* Ruraq */}
+            <li>
+              <a className="registroButtonRegister">
+                <img src={userIcon} alt="User" />
+                <Link to="/registroRuraq" className="registroLinktoFz">
+                  Regístrate con tu 
+                  <span> correo</span>
+                </Link>
+              </a>
+            </li>
+          </ul>
+          <div className="registroText2">
+            <p>
+              ¿Ya tienes una cuenta? <br />
+              <Link to="/login"> Inicia sesión </Link>
+            </p>
+          </div>
+        </div>
+      </div>
+    </>
+  );
+};
+
+export default Registro;
