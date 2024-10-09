@@ -6,7 +6,8 @@ import './login.css'; // Asegúrate de importar el nuevo archivo CSS
 // import instagramIcon from '../../assets/icon/instagram.svg';
 // import gmailIcon from '../../assets/icon/gmail.svg';
 // import userIcon from '../../assets/icon/user.svg';
-// import Flechita from '../../components/flechita';
+import Flechita from '../../components/flechita';
+
 
 const Login = () => {
   const navigate = useNavigate();
@@ -20,7 +21,7 @@ const Login = () => {
       <div className="loginPrincipalContainer">
         <div className="loginBackground"></div>
         <div className="loginText">
-          <h1>Inicia sesión y continúa viendo tus artesanías favoritas.</h1>
+          <h1>Inicia sesión y continúa viendo tus comidas favoritas.</h1>
         </div>
         <div className="loginList">
           <ul>
