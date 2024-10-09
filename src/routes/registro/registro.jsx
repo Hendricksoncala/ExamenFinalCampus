@@ -11,7 +11,7 @@ const Registro = () => {
         <div className="registroText">
           <h1>
             Regístrate ahora y obtén las mejores promociones en
-            <span> artesanías peruanas</span>
+            <span> nuestra comida </span>
           </h1>
         </div>
         <div className="registroList">

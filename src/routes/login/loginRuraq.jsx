@@ -1,7 +1,9 @@
 import React, { useState } from 'react';
 import { useNavigate, Link } from 'react-router-dom';
 import Flechita from '../../components/flechita.jsx';
+import Arrow from "../../assets/icon/arrowContinue.svg"
 import './loginRuraq.css';
+import fondo from '../../assets/icon/fondo.png'
 
 const LoginRuraq = () => {
   const navigate = useNavigate();
@@ -77,9 +79,9 @@ const LoginRuraq = () => {
           </div>
         </form>
       </div>
-      <img src={imagenBgCorner} alt="rectanguloBgCorner" className="loginRuraqImagenBgCorner" />
+
       <img
-        src={imagenBgCornerInverse}
+
         alt="imagenBgCornerInverse"
         className="loginRuraqImagenBgCornerInverse"
       />

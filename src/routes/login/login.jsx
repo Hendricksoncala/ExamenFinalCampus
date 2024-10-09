@@ -7,7 +7,7 @@ import './login.css'; // Asegúrate de importar el nuevo archivo CSS
 // import gmailIcon from '../../assets/icon/gmail.svg';
 // import userIcon from '../../assets/icon/user.svg';
 import Flechita from '../../components/flechita';
-
+import Arrow from '../../assets/icon/arrowContinue.svg'
 
 const Login = () => {
   const navigate = useNavigate();
@@ -28,20 +28,20 @@ const Login = () => {
             {/* google */}
             <li>
               <a className="loginButtonRegister" href="/inicioSesion/google">
-                <img src={gmailIcon} alt="Facebook" />
+                <img src={Arrow} alt="Facebook" />
                 <p>Inicia sesión con Google</p>
               </a>
             </li>
             {/* GitHub */}
             <li>
               <a className="loginButtonRegister" href="/inicioSesion/github">
-                <img src={instagramIcon} alt="Instagram" />
+                <img src={Arrow} alt="Instagram" />
                 <p>Inicia sesión con github</p>
               </a>
             </li>
             <li>
               <a className="loginButtonRegister">
-                <img src={userIcon} alt="Correo" />
+                <img src={Arrow} alt="Correo" />
                 <Link to="/loginRuraq" className="loginLinkToFz">
                   Inicia sesión con Ruraq
                 </Link>
