@@ -2,7 +2,7 @@ const express = require('express');
 const cors = require('cors');
 const ConnectToDatabase = require('./infrastructure/mongodb'); // Tu clase para conectar a MongoDB
 
-const express = require('express');
+
 const session = require('express-session');
 
 // requerido para archivos estáticos

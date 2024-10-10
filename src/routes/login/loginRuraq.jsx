@@ -80,11 +80,7 @@ const LoginRuraq = () => {
         </form>
       </div>
 
-      <img
 
-        alt="imagenBgCornerInverse"
-        className="loginRuraqImagenBgCornerInverse"
-      />
     </>
   );
 };

@@ -2,6 +2,10 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import Registrarse from '../../components/registrarse.jsx'
 import './registro.css';
+import insta from '../../assets/icon/instagram.png'
+import github from '../../assets/icon/github.png'
+import gmail from '../../assets/icon/gmail.png'
+
 
 const Registro = () => {
   return (
@@ -19,7 +23,7 @@ const Registro = () => {
             {/* github */}
             <li>
               <a className="registroButtonRegister" href="/inicioSesion/github">
-                <img src={Registrarse} alt="Instagram" />
+                <img src={github} alt="Instagram" />
                 <p>
                   Regístrate con 
                   <span> github</span>
@@ -29,7 +33,7 @@ const Registro = () => {
             {/* Gmail */}
             <li>
               <a className="registroButtonRegister" href="/inicioSesion/google">
-                <img src={Registrarse} alt="Gmail" />
+                <img src={gmail} alt="Gmail" />
                 <p>
                   Regístrate con 
                   <span> Gmail</span>
