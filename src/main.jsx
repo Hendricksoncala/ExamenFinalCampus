@@ -13,6 +13,7 @@ import TerminosCondicionesCelular from './routes/registro/terminosCondicionesCel
 import Start from './routes/registro/start.jsx';
 
 import HomePage from './routes/page/homepage/homepage.jsx'
+import Producto from './components/tarjetaFood/tarjetaFood.jsx'
 
 
 const checkAuth = async () => {
@@ -105,10 +106,10 @@ const router = createBrowserRouter([
     path: '/home',
     element: <HomePage />
   },
-  // {
-  //   path: '/categoria',
-  //   element: <Categoria/>
-  // }
+  {
+    path: '/productos',
+    element: <Producto/>
+  }
 
   
 ]);

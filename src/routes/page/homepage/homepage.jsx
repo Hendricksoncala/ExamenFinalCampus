@@ -17,6 +17,7 @@ const categories = [
     
   ];
   
+
   function HomePage() {
     return (
       <div className={styles.container}>
@@ -50,16 +51,28 @@ const categories = [
           </div>
   
           <div className={styles.talleresMesContainer}>
-            <div className={styles.header}>
+                <div className={styles.cartaPrincipal}>
+                  <div className={styles.carta}>
+                    <h2>Breackfast</h2>
+                    <img src={ensalada} alt="Taller del mes" className={styles.tallerImage} />
+                  </div>
+                  <div className={styles.informacion}>
+                    <h2>French Green Salad</h2>
+                    <p>Discover the joy of a truly nourishing meal</p>
+                  </div>
+                </div>
 
-              <p>¡Aprende cómo hacerlos en estos talleres educativos!</p>
-            </div>
-  
-            <div className={styles.tallerImageContainer}>
-              <img src={ensalada} alt="Taller del mes" className={styles.tallerImage} />
-            </div>
-  
-            <button className={styles.inscribeteButton}>¡Inscríbete ahora!</button>
+                <div className={styles.cartaPrincipal}>
+                  <div className={styles.carta}>
+                    <h2>Breackfast</h2>
+                    <img src={ensalada} alt="Taller del mes" className={styles.tallerImage} />
+                  </div>
+                  <div className={styles.informacion}>
+                    <h2>French Green Salad</h2>
+                    <p>Discover the joy of a truly nourishing meal</p>
+                  </div>
+                </div>
+                
           </div>
         </div>
   

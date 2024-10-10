@@ -76,7 +76,7 @@ const LoginRuraq = () => {
             </p>{' '}
             {/* Cambié el botón por texto */}
 
-            <link to="/home">No te preocupes, hecha un vistaso ;D</link>
+            <Link to="/home">No te preocupes, hecha un vistaso ;D</Link>
           </div>
         </form>
       </div>
