@@ -1,0 +1,54 @@
+.HeaderyHeader {
+    background-color: var(--color-fondo);
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    position: sticky;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 3.5em;
+  }
+  
+  .HeaderyIcon {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding: 0 1em;
+    width: 2em;
+    height: 2em;
+  }
+  
+  .HeaderyIcon img {
+    width: 80%;
+    object-fit: cover;
+    box-sizing: border-box;
+  }
+  
+  .HeaderyInput {
+    background-color: var(--color-fondo-button);
+    color: var(--color-texto);
+    flex-grow: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 1em 0 0;
+    height: 2em;
+    border-radius: 0.5em;
+  }
+  
+
+  .HeaderyInputSearch {
+    background-color: transparent;
+    border: none;
+    height: 2em;
+    flex-grow: 1;
+    padding: 0 1em;
+  }
+  
+  .HeaderyInput img {
+    height: 1.5em;
+    object-fit: cover;
+    box-sizing: border-box;
+    padding: 0 0.3em;
+  }

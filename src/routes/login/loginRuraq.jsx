@@ -75,7 +75,8 @@ const LoginRuraq = () => {
               Iniciar sesión
             </p>{' '}
             {/* Cambié el botón por texto */}
-            <Link to="/registro">¿Olvidaste tu contraseña?</Link>
+
+            <link to="/home">No te preocupes, hecha un vistaso ;D</link>
           </div>
         </form>
       </div>

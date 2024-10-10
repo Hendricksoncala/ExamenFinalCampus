@@ -1,0 +1,134 @@
+.container {
+    width: 100%;
+    height: 100vh;
+    background: white;
+
+    /* padding: 20px; */
+  }
+
+  .PerfilSuperior{
+    margin: 10px;
+    color:black;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    gap:10px
+  }
+  .PerfilSuperior img{
+    display: flex;
+    width: 20vw;
+    height: 10vh;
+  }
+  
+  .categoriasContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+  }
+  
+  .titulo {
+    text-align: left;
+    color:black
+
+  }
+  
+  .titulo h2 {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  .search {
+    display: flex; /* Usa flexbox para centrar el contenido */
+    justify-content: center; /* Centra horizontalmente */
+    align-items: center; /* Centra verticalmente */
+    width: 100vw; /* Asegúrate de que el contenedor ocupe el 100% del ancho */
+
+   
+  }
+  
+  .search input {
+    background-color: hwb(0 89% 11%);
+    color: black;
+    border: none;
+    padding: 8px;
+    border-radius: 4px;
+    width: 92vw;
+    background-repeat: no-repeat;
+    background-position: 2px center; 
+    padding-left: 7vw; 
+    background-size: 16px 16px;
+  }
+  
+  /* Contenedor de categorías con scroll horizontal */
+  .gridContainer {
+    display: grid;
+    grid-template-columns: repeat(5, minmax(80px, 1fr)); /* Máximo 5 ítems por fila */
+    grid-auto-rows: minmax(100px, auto); /* Define la altura de cada fila */
+    gap: 20px; /* Espacio entre ítems */
+    overflow-x: auto; /* Habilita el scroll horizontal */
+    overflow-y: hidden; /* Desactiva el scroll vertical */
+    width: 100vw;
+
+  }
+  
+
+  .icon {
+    width: 70px; /* Íconos más pequeños */
+    height: 70px;
+  }
+  
+  .categoriaItem p {
+    font-size: 12px; /* Texto más pequeño */
+    margin-top: 3px;
+  }
+  
+  
+  .talleresMesContainer {
+    text-align: center;
+  
+  }
+  
+  
+  .iconWrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px; /* Espacio entre los iconos y el texto */
+  }
+  
+  .cuadradosDecor {
+    width: 15px; /* Ajusta el tamaño de los iconos */
+  }
+  .iconWrapper h2 {
+  
+    font-size: 1.2rem;
+    margin: 0 20px; /* Espacio entre el texto y los iconos */
+  }
+  
+  .container p {
+    font-size: 1rem;
+    color: #666;
+  }
+  
+  .tallerImageContainer {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .tallerImage {
+    width: 200px; /* Ajusta el tamaño de la imagen */
+    height: auto;
+    border-radius: 10px; /* Opcional, para darle bordes redondeados */
+  }
+  
+  .inscribeteButton {
+    background-color: #ff6347; /* Color del botón */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+    margin-top: 20px;
+  }

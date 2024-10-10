@@ -12,6 +12,8 @@ import TerminosCondicionesRuraq from './routes/registro/terminosCondicionesRuraq
 import TerminosCondicionesCelular from './routes/registro/terminosCondicionesCelular.jsx';
 import Start from './routes/registro/start.jsx';
 
+import HomePage from './routes/page/homepage/homepage.jsx'
+
 
 const checkAuth = async () => {
   try {
@@ -99,6 +101,14 @@ const router = createBrowserRouter([
     path: '/loginRuraq',
     element: <LoginRuraq />,
   },
+  {
+    path: '/home',
+    element: <HomePage />
+  },
+  // {
+  //   path: '/categoria',
+  //   element: <Categoria/>
+  // }
 
   
 ]);

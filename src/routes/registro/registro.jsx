@@ -67,6 +67,8 @@ const Registro = () => {
               <Link to="/login"> Inicia sesión </Link>
             </p>
           </div>
+
+          <Link to="/home">No te preocupes, hecha un vistaso ;D</Link>
         </div>
       </div>
     </>
