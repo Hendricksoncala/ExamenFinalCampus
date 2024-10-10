@@ -45,9 +45,12 @@ const Login = () => {
                 <Link to="/loginRuraq" className="loginLinkToFz">
                   Inicia sesión con Ruraq
                 </Link>
+                
               </a>
             </li>
+            
           </ul>
+          <Link to="/home">No te preocupes, hecha un vistaso ;D</Link>
         </div>
       </div>
     </>
