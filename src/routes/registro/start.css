@@ -1,4 +1,4 @@
-/* Contenedor principal */
+
 
 body,
 html {
@@ -14,7 +14,6 @@ html {
   height: 100vh;
   width: 100vw;
   display: flex;
-  justify-content: center;
   align-items: center;
   transition: opacity 0.5s ease-in-out;
   overflow-x: none;
@@ -23,6 +22,24 @@ html {
 }
 
 /* Animación de opacidad */
+
+.texto-container{
+display: flex;
+flex-direction: column;
+}
+
+.texto-container .palabras{
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  margin-bottom: -10vh;
+  font-size: medium;
+}
+
+.palabras .green{
+  color:#93D8A2
+}
+/**/
 
 .fade-in {
   opacity: 1;
@@ -35,12 +52,12 @@ html {
 /* Contenedor del logo */
 .logo-container {
   width: 100%;
-  max-width: 300px;
-  padding: 0 20px;
+  max-width: 200px;
+
 }
 
 /* Imagen del logo */
 .logo-img {
-  width: 100%;
+  width: 100vw;
   height: auto;
 }

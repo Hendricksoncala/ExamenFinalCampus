@@ -1,11 +1,13 @@
 const mongoose = require('mongoose');
 
+const MONGO_URL = 'mongodb://mongo:kJGuXAFhJHjUHnqJztfZzgZVPnvfBben@junction.proxy.rlwy.net:36804'
+
 class ConnectToDatabase {
   constructor() {}
 
   async connect() {
     try {
-      await mongoose.connect(process.env.MONGODB_URI, {
+      await mongoose.connect(process.env.MONGO_URL, {
         useNewUrlParser: true,
         useUnifiedTopology: true,
       });

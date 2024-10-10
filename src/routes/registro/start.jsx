@@ -4,7 +4,6 @@ import fondo from '../../assets/icon/fondo.png';
 import './start.css';
 
 import ensalada from '../../assets/icon/ensalada.png';
-
 import Arrow from "../../assets/icon/arrowContinue.svg"
 
 const Start = () => {
@@ -30,7 +29,24 @@ const Start = () => {
     <div className={`start-container ${isFading ? 'fade-out' : 'fade-in'}`}>
       <div className="logo-container">
 
-        <img src={ensalada} alt="Main Logo" className="logo-img" />
+        <img src={fondo} alt="Main Logo" className="logo-img" />
+
+        <div className="texto-container">
+
+          <div className="palabras">
+            <h1 className="green">Eat</h1>
+            <h1 >Well,</h1>
+          </div>
+          <div className="palabras">
+            <h1  className="green">Eat</h1>
+            <h1>Well,</h1>
+          </div>
+          <div className="palabras">
+            <h1  className="green">Eat</h1>
+            <h1>Well</h1>
+          </div>
+        </div>
+
       </div>
     </div>
   );

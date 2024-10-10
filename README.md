@@ -1,8 +1,24 @@
-# React + Vite
+PARA CORRER EL PROYECTO LO PRIMERO QUE TIENES QUE HACER ES
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+instalar dependencias
+ 
+ ```
+ npm i 
+ ```
 
-Currently, two official plugins are available:
+ LUEGO COLOCAR LE .env:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+ ```
+EXPRESS_PORT=3000
+EXPRESS_HOST="localhost"
+EXPRESS_EXPIRE=60000
+
+MONGODB_URI=mongodb://mongo:kJGuXAFhJHjUHnqJztfZzgZVPnvfBben@junction.proxy.rlwy.net:36804
+```
+
+LUEGO:
+```
+npm run dev:src
+```
+
+Porfavor pasar directamente a el front, Muchas gracias!!!
